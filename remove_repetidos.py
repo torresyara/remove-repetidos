@@ -8,5 +8,3 @@ def remove_repetidos(a: [int]):
 	return [a[i] for i in range(len(a)) if a[i] != a[i-1]]
 	
 
-
-print (remove_repetidos([7,3,33,12,3,3,3,7,12,100]))
